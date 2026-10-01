@@ -1,0 +1,29 @@
+{
+    "name": "2comehome-akquise",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc --noEmit && vite build",
+        "typecheck": "tsc --noEmit",
+        "format": "prettier --write resources/js resources/css vite.config.js",
+        "format:check": "prettier --check resources/js resources/css vite.config.js"
+    },
+    "dependencies": {
+        "@inertiajs/react": "^2.0.0",
+        "lucide-react": "^0.468.0",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0"
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.0.0",
+        "@types/react": "^19.0.0",
+        "@types/react-dom": "^19.0.0",
+        "@vitejs/plugin-react": "^5.0.0",
+        "laravel-vite-plugin": "^2.0.0",
+        "prettier": "^3.9.9",
+        "tailwindcss": "^4.0.0",
+        "typescript": "^5.7.0",
+        "vite": "^7.0.0"
+    }
+}
