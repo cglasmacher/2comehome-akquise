@@ -1,0 +1,50 @@
+# Local configuration and credentials
+.env*
+!.env.example
+/auth.json
+
+# Installed dependencies and generated frontend files
+/vendor/
+/node_modules/
+/public/build/
+/public/hot
+/public/storage
+
+# Laravel runtime files; preserve directory placeholders
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+/storage/*.key
+/storage/pail/
+/storage/logs/*
+!/storage/logs/.gitignore
+/storage/framework/cache/data/*
+!/storage/framework/cache/data/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/testing/*
+!/storage/framework/testing/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/app/private/*
+!/storage/app/private/.gitignore
+/storage/app/public/*
+!/storage/app/public/.gitignore
+*.log
+*.sqlite*
+
+# Tool caches, local editors and OS files
+/.phpunit.cache/
+.phpunit.result.cache
+.phpactor.json
+/.fleet/
+/.idea/
+/.nova/
+/.vscode/
+/.zed/
+.DS_Store
+Thumbs.db
+Homestead.json
+Homestead.yaml
+
+# Plesk-generated root landing page (Laravel serves public/index.php)
+/index.html
